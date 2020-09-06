@@ -2,6 +2,11 @@ backend:
   name: github
   repo: siuhangw/my_blog # Path to your GitHub repository
   branch: master # Branch to update (optional; defaults to master)
+  api_root: https://api.github.com
+  # site_domain: cms.netlify.com
+  site_domain: cms.netlify.com
+  base_url: https://api.netlify.com
+  auth_endpoint: auth
 
 media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
 
